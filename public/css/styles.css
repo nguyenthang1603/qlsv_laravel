@@ -1,0 +1,118 @@
+/* public/css/styles.css */
+
+/* Style cho container */
+.container {
+    margin-top: 20px;
+}
+
+/* Style cho card */
+.card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+    background-color: #007bff;
+    padding: 15px;
+    border-bottom: 1px solid #007bff;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+/* Style cho nav */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #007bff;
+}
+
+/* Style cho list-group */
+.list-group {
+    margin-top: 20px;
+}
+
+.list-group-item {
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.list-group-item:hover {
+    background-color: #e9e9e9;
+}
+
+/* Style cho tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+body {
+    background-image: url('https://png.pngtree.com/background/20210710/original/pngtree-creative-synthesis-simple-book-education-and-training-background-picture-image_1048845.jpg'); /* Đường dẫn đến ảnh nền */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.menu {
+    border: 1px solid #ccc;
+    padding: 15px;
+    width: 250px; /* Độ rộng của thanh navbar */
+    overflow-y: auto; /* Hiển thị thanh cuộn khi nội dung quá dài */
+    height: calc(100vh - 60px); /* Chiều cao cho thanh navbar, trừ đi chiều cao của header */
+}
+
+.menu h2 {
+    margin-top: 0;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc; /* Đường viền dưới cho tiêu đề */
+}
+
+.menu ul {
+    padding: 0;
+    margin-top: 10px; /* Khoảng cách từ tiêu đề đến danh sách */
+}
+
+.menu ul li {
+    list-style-type: none; /* Loại bỏ dấu chấm */
+    cursor: pointer;
+    margin-bottom: 10px;
+    padding-left: 15px; /* Độ lề cho mục danh sách */
+    background-color: white; /* Màu nền trắng */
+    color: black; /* Màu chữ đen */
+    transition: background-color 0.3s; /* Hiệu ứng màu nền */
+}
+
+/* Hover effect cho các mục trong menu */
+.menu ul li:hover {
+    background-color: #e6f7ff; /* Màu nền xanh nhạt khi hover */
+}
